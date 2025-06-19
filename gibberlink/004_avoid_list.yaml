@@ -1,0 +1,9 @@
+# TEMPLATE — 004_avoid_list.yaml
+rules:
+  - id: "avoid_[slug]_YYYYMMDD"
+    instruction: "[Rule to avoid, max 100 chars]"
+    reason: "[Rationale, max 100 chars]"
+    scope: "[e.g., Code, YAML updates]"
+    source: "[e.g., Audit log]"
+    timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+    tags: ["[keyword1]", "[keyword2]"]

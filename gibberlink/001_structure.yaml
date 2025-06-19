@@ -1,0 +1,27 @@
+# TEMPLATE — 001_structure.yaml
+project:
+  name: "[Project Name]"
+  description: "[Brief project overview, max 100 chars]"
+  domain: "[Project Domain]"
+  architecture:
+    - language: "[e.g., JavaScript]"
+    - framework: "[e.g., Node.js]"
+    - database: "[e.g., MongoDB]"
+  standards:
+    - "[e.g., Use camelCase]"
+    - "[e.g., Follow REST conventions]"
+  compliance:
+    - "[e.g., GDPR compliance]"
+  team:
+    roles:
+      - role: "[e.g., Developer]"
+        responsibilities: ["[e.g., Write code]"]
+    metrics:
+      - "[e.g., Code coverage: 90%+]"
+  tasks:
+    - id: "task_[slug]_YYYYMMDD"
+      details: "[Task description, max 100 chars]"
+      intent: "[Task purpose]"
+      source: "[e.g., User Prompt]"
+      timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+      tags: ["[keyword1]", "[keyword2]"]

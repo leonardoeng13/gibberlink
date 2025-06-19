@@ -1,0 +1,15 @@
+# TEMPLATE — 009_index.yaml
+index:
+  milestones:
+    - title: "[Milestone, max 50 chars]"
+      status: "[e.g., Completed]"
+      timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+      tags: ["[keyword1]", "[keyword2]"]
+  deliverables:
+    - "[e.g., Documentation]"
+  efficiency_gains:
+    - "[e.g., Time reduction: 50%]"
+  issues_resolved:
+    - "[e.g., Error fixed]"
+  next_actions:
+    - "[e.g., Deploy to staging]"

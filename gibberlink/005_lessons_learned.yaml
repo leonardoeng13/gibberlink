@@ -1,0 +1,11 @@
+# TEMPLATE — 005_lessons_learned.yaml
+lessons:
+  - id: "lesson_[slug]_YYYYMMDD"
+    context: "[Context, max 100 chars]"
+    lesson: "[Lesson learned, max 200 chars]"
+    source: "[e.g., Code review]"
+    timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+    tags: ["[keyword1]", "[keyword2]"]
+    priority: "[high|medium|low]"
+    related:
+      - "[error_id|insight_id]"

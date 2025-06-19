@@ -1,0 +1,16 @@
+# TEMPLATE — 007_trace.yaml
+traces:
+  - id: "trace_[slug]_YYYYMMDD"
+    context: "[Context, max 100 chars]"
+    timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+    tags: ["[keyword1]", "[keyword2]"]
+    priority: "[high|medium|low]"
+    linked_files:
+      - "[path/to/file.yaml]"
+    source: "[e.g., Commit]"
+    tools_used:
+      - "[e.g., semantic_search]"
+    impact:
+      - "[Impact, max 50 chars]"
+    decisions:
+      - "[Decision, max 50 chars]"

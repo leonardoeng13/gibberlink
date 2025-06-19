@@ -1,0 +1,25 @@
+# TEMPLATE — 002_progress.yaml
+progress:
+  - id: "progress_[slug]_YYYYMMDD"
+    description: "[Progress summary, max 100 chars]"
+    status: "[completed|in_progress|pending|blocked|cancelled]"
+    timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+    tags: ["[keyword1]", "[keyword2]"]
+    priority: "[high|medium|low]"
+    linked_files:
+      - "[path/to/file.ext]"
+    impacted_modules:
+      - "[module_name]"
+    improvements:
+      functional: ["[New feature, max 50 chars]"]
+      technical: ["[Refactoring, max 50 chars]"]
+      bugfixes: ["[Bug fix, max 50 chars]"]
+    architecture:
+      patterns: ["[e.g., Repository Pattern]"]
+      decisions: ["[Decision, max 50 chars]"]
+    performance_metrics:
+      - "[e.g., Latency: <100ms]"
+    business_relevance:
+      - "[e.g., Improves UX]"
+    next_steps:
+      - "[e.g., Write tests]"

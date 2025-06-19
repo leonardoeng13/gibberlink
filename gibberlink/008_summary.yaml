@@ -1,0 +1,11 @@
+# TEMPLATE — 008_summary.yaml
+summaries:
+  - module: "[Module, e.g., auth]"
+    completion_status: "[e.g., Production Ready]"
+    critical_success_factors:
+      - "[e.g., APIs functional]"
+    validation_status: "[e.g., Tests passed]"
+    production_ready: [true|false]
+    timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+    tags: ["[keyword1]", "[keyword2]"]
+    priority: "[high|medium|low]"

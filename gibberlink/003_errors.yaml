@@ -1,0 +1,18 @@
+# TEMPLATE — 003_errors.yaml
+errors:
+  - id: "error_[slug]_YYYYMMDD"
+    type: "[e.g., TypeError]"
+    description: "[Error description, max 100 chars]"
+    file: "[path/to/file.ext]"
+    line_number: [number|null]
+    context_reference: "[Context, max 50 chars]"
+    severity: "[Low|Medium|High|Critical]"
+    status: "[identified|resolved]"
+    timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+    tags: ["[keyword1]", "[keyword2]"]
+    priority: "[high|medium|low]"
+    source_file: "[e.g., logs]"
+    solution_applied: "[Resolution, max 100 chars, if resolved]"
+    verification: "[e.g., Test passed, if resolved]"
+    related:
+      - "[error_id|solution_id]"

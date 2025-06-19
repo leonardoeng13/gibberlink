@@ -1,0 +1,26 @@
+# TEMPLATE — context_YYYYMMDD_HHMMSS.yaml
+contexts:
+  - context_id: "ctx_[feature_or_fix]_YYYYMMDD"
+    summary: "[Task summary, max 50 chars]"
+    task: "[Task objective, max 100 chars]"
+    status: "[IN_PROGRESS|COMPLETED|BLOCKED|REVIEW_PENDING|DEFERRED]"
+    timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+    responsible: "[developer|copilot|agent]"
+    module: "[Main module, e.g., auth]"
+    submodule: "[Optional submodule]"
+    component: "[Component under work, e.g., LoginAPI]"
+    trace_id: "trace_[feature]_YYYYMMDD"
+    tags: ["[keyword1]", "[keyword2]"]
+    priority: "[high|medium|low]"
+    description: "[Brief explanation of context, rationale, and constraints, max 200 chars]"
+    warnings:
+      - "[Concise warning, e.g., Validate inputs]"
+      - "[Concise warning, e.g., Enforce access control]"
+    related:
+      insights: ["[insight_id_YYYYMMDD]"]
+      progress: ["[progress_id_YYYYMMDD]"]
+      errors: ["[error_id_YYYYMMDD]"]
+    source_files:
+      - "[path/to/file.ext]"
+    linked_components:
+      - "[ComponentName]"

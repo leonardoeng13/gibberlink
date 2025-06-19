@@ -1,0 +1,13 @@
+# TEMPLATE — 006_insights.yaml
+insights:
+  - id: "insight_[slug]_YYYYMMDD"
+    context: "[Context, max 100 chars]"
+    description: "[Insight, max 200 chars]"
+    impact: "[Impact, max 100 chars]"
+    timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+    tags: ["[keyword1]", "[keyword2]"]
+    priority: "[high|medium|low]"
+    related:
+      - "[error_id|lesson_id]"
+    components:
+      - "[Component, e.g., API]"
