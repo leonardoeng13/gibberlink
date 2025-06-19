@@ -58,6 +58,45 @@ The Copilot leverages this shared context to provide consistent, high-quality su
 
 ---
 
+## ❤️ Support the Project
+
+If you find **GibberLink** valuable and appreciate the vision behind creating a collaborative, context-aware protocol for Human ↔ AI development, please consider supporting this open-source effort.
+
+Your contribution helps:
+
+- Keep GibberLink free and evolving
+- Fund improvements, templates, and documentation
+- Enable community tools for global developers
+
+### ☕ Support Options
+
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal)](mailto:leonardoandrade.eng@gmail.com)
+[![BTC](https://img.shields.io/badge/BTC-bc1q8f...ua3-orange?logo=bitcoin)](#bitcoin)
+[![ETH](https://img.shields.io/badge/ETH-0x9ADF...D58f-blueviolet?logo=ethereum)](#ethereum)
+[![SOL](https://img.shields.io/badge/SOL-2Rask...Qu1b-00ffbf?logo=solana)](#solana)
+
+---
+
+### 📬 Donation Addresses
+
+- **PayPal**: [leonardoandrade.eng@gmail.com](mailto:leonardoandrade.eng@gmail.com)
+
+- **Bitcoin (BTC)**:  
+  `bc1q8fld5qxdxcyar8rvt83759e0hv7q54qvvfmua3`
+
+- **Ethereum (ETH)**:  
+  `0x9ADF777f38C7E212c7Ff47F385292a7E3127D58f`
+
+- **Solana (SOL)**:  
+  `2RaskEc58d6RpQChD6Ydj88QtUyyUyU8uN4aW931Qu1b`
+
+---
+
+> _Every contribution — big or small — helps sustain universal cognition infrastructure._  
+> Thank you for supporting **GibberLink**. 🙏
+
+---
+
 📌 **Visual Overview**  
 ```mermaid
 sequenceDiagram
